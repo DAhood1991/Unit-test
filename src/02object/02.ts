@@ -25,50 +25,50 @@ export type GovernmentBuildings ={
 }
 
 
-// type StudentType = {
-//     id: number
-//     name: string
-//     age: number
-//     isActive: boolean
-//     address: AdressType
-//     tehnologies: Array<TehnologiesType>
-//
-// }
-// type AdressType = {
-//     stretTitle: string
-//     city: CityTypep
-// }
-// type CityTypep = {
-//     title: string
-//     country: string
-// }
-// type TehnologiesType = {
-//     id: number
-//     title: string
-// }
-// const student: StudentType = {
-//     id: 1,
-//     name: "Aleks",
-//     age: 32,
-//     isActive: true,
-//     address: {
-//         stretTitle: 'Bogomolova',
-//         city: {
-//             title: 'Soligorsk',
-//             country: 'Belarus'
-//         }
-//     },
-//     tehnologies: [{
-//         id: 1,
-//         title: "html"
-//     },
-//         {
-//             id: 2,
-//             title: "js"
-//         },
-//         {
-//             id: 3,
-//             title: "css"
-//         }
-//     ]
+export type StudentType = {
+    id: number
+    name: string
+    age: number
+    isActive: boolean
+    address: AdresssType
+    tehnologies: Array<TehnologiesType>
+
+}
+type AdresssType = {
+    stretеTitle: string
+    city: CityTypep
+}
+type CityTypep = {
+    title: string
+    country: string
+}
+type TehnologiesType = {
+    id: number
+    title: string
+}
+export const student: StudentType = {
+    id: 1,
+    name: "Aleks",
+    age: 32,
+    isActive: true,
+    address: {
+        stretеTitle: 'Bogomolova',
+        city: {
+            title: 'Soligorsk',
+            country: 'Belarus'
+        }
+    },
+    tehnologies: [{
+        id: 1,
+        title: "html"
+    },
+        {
+            id: 2,
+            title: "js"
+        },
+        {
+            id: 3,
+            title: "css"
+        }
+    ]}
 
